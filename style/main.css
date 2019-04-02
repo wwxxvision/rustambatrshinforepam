@@ -1,0 +1,81 @@
+
+html, body {  
+  width: 100%;
+  height: 100%;
+
+}
+* { margin: 0; padding: 0; }
+.info {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgb(235, 152, 0);
+}
+.info h1 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#users__list {
+  margin-top: 50px;
+}
+#users__list ul {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(235, 152, 0);
+  border-top: 1px solid rgb(235, 152, 0);
+  border-left: 1px solid rgb(235, 152, 0);
+  border-radius: 14px;
+}
+
+#users__list li {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  list-style-type: none;
+  font-weight: bold;
+  border-right: 1px solid rgb(235, 152, 0);
+}
+#users__list li img {
+  border-left: 1px solid rgb(235, 152, 0);
+}
+
+.info__user {
+  height: 500px;
+  background-color: rgb(235, 152, 0);
+  border-radius: 18px;
+}
+
+.info__user li {
+  white-space: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: white; 
+  font-size: 42px;
+  margin-left: 10px;
+  list-style-type: none;
+}
+.info__user li  img {
+  border-radius: 70px;
+}
+.info__user h1 {
+  font-size: 85px;
+  text-align: center;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+.active {
+  display: block;
+}
+.active-list {
+  background-color: black;
+  opacity: 0.5;
+}
